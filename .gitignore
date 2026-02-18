@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+
+# --- Node.js ---
+node_modules/
+.next/
+dist/
+build/
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- AI Models & Large Files ---
+*.safetensors
+*.pth
+*.ckpt
+/local_services/comfyui/models/
+/local_services/ollama/data/
+
+# --- Logs & DB ---
+*.log
+postgres_data/
+redis_data/
